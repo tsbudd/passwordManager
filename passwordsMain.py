@@ -7,7 +7,7 @@ date created: 07/23/2022
 last updated: 07/23/2022
 description: uses MariaDB MySQL database to securely store passwords. If someone were to
             access the database without the program, they would only see gibberish passwords
-library install requirements: pwinput, cryptocode, datetime, tabulate, and mysql.connector
+library install requirements: pwinput, cryptocode, tabulate, and mysql.connector
 """
 import os, time, pwinput, cryptocode
 from datetime import datetime
